@@ -11,4 +11,13 @@ def leer_raiz():
 
 @app.get("/datos")
 def ver_datos():
-    return 
+    return {
+        "texto" : "Hola Bingueros",
+        "numero_entero" : 385,
+        "numero_decimal" : 89.85432,
+        "booleano" : True,
+        "lista_numeros" : [275, 653, 4567, 9765],
+        "lista_textos" : ["Los del Rio", "Titanblus", "Eletropork"],
+        "lista_de_nooleanos" : [True, False, True],
+        "Listas_misras" : 
+    }
